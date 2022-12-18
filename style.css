@@ -24,6 +24,25 @@ body {
   color: #343a40;
   line-height: 1;
 }
+header {
+  height: 50px;
+  background-color: #087f5b;
+  display: block;
+}
+.nav {
+  display: block;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -41,10 +60,17 @@ body {
   padding-top: 48px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 48px;
+}
+
+.photo {
+  width: 60%;
 }
 .title {
+  font-size: 48px;
+  text-transform: uppercase;
   color: #087f5b;
+  margin-top: 48px;
 }
 h2 {
   margin-bottom: 16px;
@@ -56,12 +82,21 @@ p {
 ul {
   padding-left: 48px;
 }
+li {
+  font-size: 24px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 60px;
   background-color: #087f5b;
   color: #fff;
+}
+.github {
+  width: 40px;
+  height: 40px;
 }
 .rsschool {
   width: 90px;
