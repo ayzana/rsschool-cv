@@ -25,6 +25,45 @@ body {
   line-height: 1;
 }
 .container {
-  width: 800px;
-  margin: 0x auto;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.left-side {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.right-side {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.title {
+  color: #087f5b;
+}
+h2 {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 24px;
+}
+ul {
+  padding-left: 48px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #087f5b;
+  color: #fff;
+}
+.rsschool {
+  width: 90px;
+  height: 40px;
 }
