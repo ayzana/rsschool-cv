@@ -15,13 +15,15 @@
   <body>
     <header>
       <nav class="nav">
-        <ul class="menu">
+        <ul class="menu container">
           <li class="menu-item"><a href="#about-me">About me</a></li>
           <li class="menu-item"><a href="#skills">Skills</a></li>
           <li class="menu-item"><a href="#code-example">Code</a></li>
           <li class="menu-item"><a href="#projects">Projects</a></li>
           <li class="menu-item"><a href="#contact">Contact</a></li>
           <li class="menu-item"><a href="#education">Education</a></li>
+          <li class="menu-item"><a href="#job">Job</a></li>
+          <li class="menu-item"><a href="#language">Language</a></li>
         </ul>
       </nav>
     </header>
@@ -30,21 +32,21 @@
         <div class="photo-box">
           <img class="photo" src="assets/photo-cv.jpg" alt="my photo" />
         </div>
-        <div class="contacts">
+        <div class="contacts" id="contact">
           <h2>contacts</h2>
           <p>aizanka001@gmail.com</p>
         </div>
-        <div class="education">
+        <div class="education" id="education">
           <h2>education</h2>
           <p>
             Specialist Degree, Daghestan State University Faculty of Mathematics
           </p>
         </div>
-        <div class="job">
+        <div class="job" id="job">
           <h2>expirience</h2>
           <p>Ministry - IT department (since - 2010)</p>
         </div>
-        <div class="languages">
+        <div class="languages" id="language">
           <h2>languages</h2>
           <ul>
             <li>Russian</li>
@@ -53,9 +55,9 @@
         </div>
       </div>
       <div class="right-side">
-        <h1 class="title">Ayzanat Gabieva</h1>
+        <h1 class="title title-item">Ayzanat Gabieva</h1>
         <h2>front-end developer</h2>
-        <div class="about">
+        <div class="about" id="about-me">
           <h2>about me</h2>
           <p>
             I'll be glad to have new contacts and job offers. I want to be a
@@ -63,7 +65,7 @@
             other people too.
           </p>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
           <h2>skills</h2>
           <ul>
             <li>HTML</li>
@@ -73,11 +75,11 @@
             <li>SQL</li>
           </ul>
         </div>
-        <div class="code">
+        <div class="code" id="code-example">
           <h2>code example</h2>
           <p>const digitalRoot = (n) => {return (n - 1) % 9 + 1;}</p>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
           <h2>projects</h2>
           <a href="https://github.com/ayzana/ayzana"
             >https://github.com/ayzana/ayzana
@@ -86,16 +88,19 @@
       </div>
     </main>
     <footer class="footer">
-      <a href="https://github.com/ayzana">
-        <img
-          class="github"
-          src="assets/GitHub-Icon-White-Logo.wine.svg"
-          alt="github"
-      /></a>
-      <p class="year">2022</p>
-      <a href="https://rs.school/js/" target="_blank">
-        <img class="rsschool" src="assets/rs_school_js.svg" alt="RS School" />
-      </a>
+      <div class="footer-items container">
+        <a href="https://github.com/ayzana">
+          <img
+            class="github"
+            src="assets/GitHub-Icon-White-Logo.wine.svg"
+            alt="github"
+        /></a>
+        <p class="year">2022</p>
+        <a href="https://rs.school/js/" target="_blank">
+          <img class="rsschool" src="assets/rs_school_js.svg" alt="RS School" />
+        </a>
+      </div>
+      </div>
     </footer>
   </body>
 </html>

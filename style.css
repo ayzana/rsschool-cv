@@ -15,14 +15,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
-  line-height: 1;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
 }
 header {
   height: 50px;
@@ -42,11 +47,16 @@ header {
 .menu-item a {
   color: #fff;
   text-decoration: none;
+  transition: 0.3s;
+}
+.menu-item a:hover {
+  background-color: #0ca678;
 }
 .container {
-  max-width: 1024px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  gap: 48px;
   justify-content: space-between;
 }
 .left-side {
@@ -72,6 +82,18 @@ header {
   color: #087f5b;
   margin-top: 48px;
 }
+.title-item {
+  position: relative;
+}
+.title-item::after {
+  content: "";
+  position: absolute;
+  top: 99px;
+  left: 149px;
+  width: 150px;
+  height: 3px;
+  background-color: #343a40;
+}
 h2 {
   margin-bottom: 16px;
   text-transform: uppercase;
@@ -87,12 +109,15 @@ li {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 60px;
   background-color: #087f5b;
   color: #fff;
+}
+.footer-items {
+  display: flex;
+  padding: 0 48px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
 }
 .github {
   width: 40px;
