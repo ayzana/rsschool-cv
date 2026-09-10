@@ -99,3 +99,24 @@
   flex-direction: column;
   gap: 10px;
 }
+.footer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2e2723;
+}
+.link {
+  text-decoration: none;
+}
+.link,
+.footer-text {
+  color: #fff;
+}
+.logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
