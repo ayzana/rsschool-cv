@@ -32,24 +32,29 @@ body {
 }
 .nav-link {
   display: block;
-  padding: 20px;
+  padding: 18px;
   text-decoration: none;
   color: #fff;
   font-size: 22px;
   letter-spacing: 0.05rem;
 }
-.image {
+.photo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   height: 300px;
   width: 300px;
   margin: 0 auto;
   border: 10px solid #fff;
-  background: url(./assets/photo-cv.jpg) no-repeat center;
-  background-size: 80%;
   background-color: #b6b0a8;
-  background-position: 50% 30%;
   border-radius: 50%;
   position: relative;
   z-index: 2;
+  overflow: hidden;
+}
+
+.photo {
+  width: 200px;
 }
 
 .sub-title {
