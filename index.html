@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <title>cv</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#language" class="nav-link">Language</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="box-left">
+          <div class="photo-wrapper">
+            <img
+              class="photo"
+              src="./assets/photo-cv.jpg"
+              alt="profile photo">
+          </div>
+          <section id="contacts">
+            <h2 class="section-title">contacts</h2>
+            <div class="line"></div>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <img
+                  class="contacts-icon"
+                  src="./assets/envelope-regular-full.svg"
+                  alt="mail">
+                <a class="contacts-link" href="mailto:aizanka001@gmail.com"
+                  >aizanka001@gmail.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                <img
+                  class="contacts-icon"
+                  src="./assets/github-alt-brands-solid-full.svg"
+                  alt="git">
+                <a class="contacts-link" href="https://github.com/ayzana"
+                  >ayzana</a
+                >
+              </li>
+              <li class="contacts-item">
+                <img
+                  class="contacts-icon"
+                  src="./assets/paper-plane-regular-full.svg"
+                  alt="telegram">
+                <a class="contacts-link" href="https://t.me/aiza001"
+                  >@aiza001</a
+                >
+              </li>
+              <li class="contacts-item">
+                <img
+                  class="contacts-icon"
+                  src="./assets/discord-brands-solid-full.svg"
+                  alt="discord">
+                <a class="contacts-link" href="#">aiza3223</a>
+              </li>
+            </ul>
+          </section>
+          <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="line"></div>
+            <div class="education-info">
+              <p>Specialist Degree</p>
+              <p>Daghestan State University</p>
+              <p>Faculty of Mathematics</p>
+            </div>
+          </section>
+          <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="line"></div>
+            <ul class="section-items">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>Git / GitHub</li>
+              <li>Figma</li>
+              <li>SQL</li>
+            </ul>
+          </section>
+          <section id="language">
+            <h2 class="section-title">Language</h2>
+            <div class="line"></div>
+            <ul class="section-items">
+              <li>Russian</li>
+              <li>English B1 - intermediate</li>
+            </ul>
+          </section>
+        </div>
+        <div class="box-right">
+          <section class="person">
+            <h1 class="title">Ayzanat Gabieva</h1>
+            <p class="sub-title">Full-Stack Developer</p>
+          </section>
+          <section class="section-about" id="about">
+            <h2 class="title-about">About Me</h2>
+            <div class="line"></div>
+            <p>
+              I'm Junior Full-Stack Developer with a passion for building clean,
+              user-friendly web applications. I have hands-on experience with
+              JavaScript, React, and Node.js through personal projects and
+              online courses. I thrive in collaborative environments and am
+              always eager to learn new technologies.
+            </p>
+          </section>
+          <section id="experience">
+            <h2 class="section-title">work experience</h2>
+            <div class="line"></div>
+            <ul class="section-items">
+              <li>Ministry - IT department (since - 2010)</li>
+            </ul>
+          </section>
+          <section id="code">
+            <h2 class="section-title">code example</h2>
+            <div class="line"></div>
+            <pre><code>
+            function invertCase(str) {
+              let result = "";
+              for (let i = 0; i &lt; str.length; i += 1) {
+                let letter = str.charAt(i);
+                if (letter === letter.toUpperCase()) {
+                  letter = letter.toLowerCase();
+                } else {
+                  letter = letter.toUpperCase();
+                }
+                result += letter;
+              }
+              return result;
+            }
+            </code></pre>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <a class="link" href="https://github.com/ayzana">@ayzana</a>
+        <p class="footer-text">&copy; 2026</p>
+        <a class="logo" href="https://rs.school/"
+          ><img src="./assets/rss-logo.svg" alt="logo"></a>
+      </footer>
+    </div>
+  </body>
+</html>
