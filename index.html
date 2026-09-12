@@ -9,16 +9,44 @@
   </head>
   <body>
     <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#language" class="nav-link">Language</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          </ul>
+        </nav>
+      </header>
       <main class="main">
         <div class="box-left">
           <div class="image"></div>
-          <div class="mail">
-            <img src="" alt="" />
-            <ul>
-              <li><p>aizanka001@gmail.com</p></li>
-            </ul>
-          </div>
-          <section>
+          <section id="contacts">
+            <p class="section-title">contacts</p>
+            <div class="mail">
+              <img src="" alt="" />
+              <ul>
+                <li><p>aizanka001@gmail.com</p></li>
+              </ul>
+            </div>
+          </section>
+          <section id="education">
             <p class="section-title">Education</p>
             <div class="line"></div>
             <div class="education-info">
@@ -27,7 +55,7 @@
               <p>Faculty of Mathematics</p>
             </div>
           </section>
-          <section>
+          <section id="skills">
             <p class="section-title">Skills</p>
             <div class="line"></div>
             <ul class="section-items">
@@ -40,7 +68,7 @@
               <li>SQL</li>
             </ul>
           </section>
-          <section>
+          <section id="language">
             <p class="section-title">Language</p>
             <div class="line"></div>
             <ul class="section-items">
@@ -54,7 +82,7 @@
             <h1 class="title">Ayzanat Gabieva</h1>
             <h2 class="sub-title">Full-Stack Developer</h2>
           </section>
-          <section class="section-about">
+          <section class="section-about" id="about">
             <p class="title-about">About Me</p>
             <div class="line"></div>
             <p>
@@ -65,30 +93,30 @@
               always eager to learn new technologies.
             </p>
           </section>
-          <section>
+          <section id="experience">
             <p class="section-title">work experience</p>
             <div class="line"></div>
             <ul class="section-items">
               <li>Ministry - IT department (since - 2010)</li>
             </ul>
           </section>
-          <section>
+          <section id="code">
             <p class="section-title">code example</p>
             <div class="line"></div>
             <pre><code>
-function invertCase(str) {
-  let result = "";
-  for (let i = 0; i &lt str.length; i += 1) {
-    let letter = str.charAt(i);
-    if (letter === letter.toUpperCase()) {
-      letter = letter.toLowerCase();
-    } else {
-      letter = letter.toUpperCase();
-    }
-    result += letter;
-  }
-  return result;
-}
+            function invertCase(str) {
+              let result = "";
+              for (let i = 0; i &lt str.length; i += 1) {
+                let letter = str.charAt(i);
+                if (letter === letter.toUpperCase()) {
+                  letter = letter.toLowerCase();
+                } else {
+                  letter = letter.toUpperCase();
+                }
+                result += letter;
+              }
+              return result;
+            }
             </code></pre>
           </section>
         </div>

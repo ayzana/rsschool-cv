@@ -8,11 +8,27 @@
 
 .container {
   max-width: 1440px;
-
   margin: 0 auto;
   overflow: hidden;
 }
-
+.header {
+  background-color: #2e2723;
+  padding: 10px 20px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav-link {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 0.05rem;
+}
 .image {
   height: 300px;
   width: 300px;
